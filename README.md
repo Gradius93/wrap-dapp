@@ -1,3 +1,6 @@
+**Deprecated repository, new one is available at https://github.com/bender-labs/wrap-dapps**
+
+
 # Bender Dapp
 
 ## Launch dev server

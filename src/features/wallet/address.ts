@@ -1,3 +1,5 @@
-export function ellipsizeAddress(address: string): string {
-  return `${address.slice(0, 6)}...${address.slice(address.length - 4)}`;
+export function ellipsizeAddress(address: string, count = 5): string {
+    return `${address.slice(0, count + 1)}..${address.slice(
+        address.length - count - 1
+    )}`;
 }

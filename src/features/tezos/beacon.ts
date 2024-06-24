@@ -1,5 +1,5 @@
-import { BeaconWallet } from '@taquito/beacon-wallet';
+import {BeaconWallet} from '@taquito/beacon-wallet';
 
 export function getLibrary() {
-  return new BeaconWallet({ name: 'Wrap' });
+    return new BeaconWallet({name: 'Wrap'});
 }
